@@ -1,0 +1,85 @@
+body{
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.Heron{
+    position :absolute;
+    width: 150px;
+    top: 10px;
+    right: 10px;
+}
+
+.logo{
+    position: center;
+    margin-top: 150px;
+    width: 40%;
+}
+
+h2{
+    color: #6f5aa8;;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+span{
+    font-size: 15px;
+}
+
+input{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins;
+    border: 3px solid #6f5aa8;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;    
+    caret-color: transparent;
+    margin: 5px;
+}
+
+#otp3{
+    margin-right: 50px;
+}
+
+
+input:focus{
+    outline: none;
+    border: 2px solid #6f5aa8;
+    outline:none;
+}
+
+button{
+    width: 400px;
+    height: 50px;
+    background-color: #6f5aa8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+#popup{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    background: #7454cb;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0;
+    transition:0.3s;
+}
