@@ -80,7 +80,7 @@ button:active{
 }
 
 /* TAMPILAN MOBILE */
-@media (max-width: 428px) {
+@media (max-width: 500px) {
     input{
         width: 15px;
         height: 25px;
