@@ -17,7 +17,7 @@ h2{
     color: #6f5aa8;;
     font-size: 40px;
     margin-top: 250px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 span{
@@ -25,14 +25,13 @@ span{
 }
 
 input{
-    width: 10%;
+    width: 20%;
     height: 20%;
     min-width: 30px;
-    min-height: 60px;
-    max-width: 60px;
+    min-height: 50px;
+    max-width: 50px;
     max-height: 30px;
     border-radius: 10px;
-    margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 30px;
@@ -44,11 +43,6 @@ input{
     caret-color: transparent;
     margin: 5px;
 }
-
-#otp3{
-    margin-right: 50px;
-}
-
 
 input:focus{
     outline: none;
