@@ -42,9 +42,9 @@ input{
 
 @media (max-width: 480 px) {
     input{
-        width: 30px;
-        height: 30px;
-        font-size: 15px;
+        width: 10px;
+        height: 10px;
+        font-size: 7px;
     }
 }
 
