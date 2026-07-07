@@ -82,7 +82,7 @@ button:active{
 /* TAMPILAN MOBILE */
 @media (max-width: 428px) {
     input{
-        width: 20px;
+        width: 15px;
         height: 25px;
         border-radius: 4px;
         margin-bottom: 4px;
