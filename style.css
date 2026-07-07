@@ -25,12 +25,8 @@ span{
 }
 
 input{
-    width: 20%;
-    height: 20%;
-    min-width: 30px;
-    min-height: 50px;
-    max-width: 50px;
-    max-height: 30px;
+    width: 60px;
+    height: 60px;
     border-radius: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -42,6 +38,14 @@ input{
     align-items: center;    
     caret-color: transparent;
     margin: 5px;
+}
+
+@media (max-width: 480 px) {
+    input{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
 }
 
 input:focus{
